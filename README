@@ -1,0 +1,10 @@
+本程序参考https://www.cnblogs.com/bigdatafly/p/5014597.html编写而成
+主要用于无字典的分词
+
+使用方法：
+下载DivideWord.py，之后在自己的代码文件中导入该文件，调用函数DivideWord(text_path, result_path, vocab_path, word_size=5, freq_threshold=0.0001, co_threshold=0.99999, free_threshold=0.99999)
+其中，text_path为要分词的文件所在路径，result_path为分词结果的输出路径，vocab_path为输出的字典路径。
+word_size为最大词语的大小，默认为5
+freq_threshold为频率阈值，默认为0.0001
+co_threshold为凝固度阈值，默认为0.99999
+free_threshold为自由度阈值，默认为0.99999
